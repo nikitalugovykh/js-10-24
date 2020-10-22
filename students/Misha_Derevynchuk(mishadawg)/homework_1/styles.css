@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Body*/
+body{
+    background-color:#269;
+    background-image: linear-gradient(white 2px, transparent 2px),
+    linear-gradient(90deg, white 2px, transparent 2px),
+    linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+/*Header*/
+.header_section{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 36px;
+    border: 2px solid black;
+    margin-bottom: 16px;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+.header_fonts{
+    font-size: 20px;
+    font-weight: 100;
+}
+.cart-button, .btn{
+    padding: 0px 14px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cart-button:hover, .btn:hover{
+    background-color: rgb(212, 209, 209);
+}
+
+/*Cards*/
+.goods{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 36px;
+    
+}
+.item{
+    border: 2px solid black;
+    padding: 16px 26px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.title_of_card{
+    font-weight: 100;
+    font-size: 18px;
+    padding: 16px;
+}
+.description_of_card{
+    margin-bottom:16px;
+}
+.card_button{
+
+}
