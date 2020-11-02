@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    width: 1080px;
+    min-height: 800px;
+    background-color: black;
+    margin: 0 auto ;
+    background: url(../img/bg1.jpg) no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.text {
+    color: white;
+}
+.menugumb {
+    position: absolute;
+    right: 90px;
+    top: 90px;
+    border-radius: 10px;
+    border: white solid 1px;
+    width: 500px;
+    height: 620px;
+
+}
+.main {
+    display: inline;
+    text-align: center;
+}
+.sizeBurger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sizeBurger h1{
+    display: inline;
+    text-align: center;
+}
+.sizeBurger_img {
+    height: 120px;
+}
+.main1 {
+    display: inline;
+    text-align: center;
+}
+.sizeBurger_small {}
+.sizeBurger_big {}
+.addToBurger1 {
+    display: flex;
+}
+.addToBurger1_cheese {}
+.cheese_img {
+    height: 100px;
+}
+.cheese_bt {}
+.addToBurger1_potato {}
+.potato_img {
+    height: 100px;
+}
+.potato_bt {}
+.addToBurger1_salad {}
+.salad_img {
+    height: 100px;
+}
+.salad_bt {}
+.main2 {
+    display: inline;
+    text-align: center;
+}
+
+.addToBurger2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.addToBurger2_seasoning {}
+.seasoning_img {
+    height: 100px;
+}
+.seasoning_bt {}
+.addToBurger2_mayonneise {}
+.mayonneise_img {
+    height: 100px;
+}
+.mayonneise_bt {}
+.total {
+    margin:  15px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+
+
+}
+
+.knopka {
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(212,75,56); /* фон кнопки */
+    padding: 5px 13px; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+  } 
+  .knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+  .knopka:active { background: rgb(152,15,0); }
